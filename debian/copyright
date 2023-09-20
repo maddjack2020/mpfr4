@@ -1,0 +1,2944 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: mpfr4
+Upstream-Contact: <preferred name and address to reach the upstream project>
+Source: <url://example.com>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     acinclude.m4
+           examples/can_round.c
+           examples/divworst.c
+           examples/rndo-add.c
+           examples/sample.c
+           examples/threads.c
+           examples/version.c
+           src/abort_prec_max.c
+           src/acos.c
+           src/acosh.c
+           src/acosu.c
+           src/add.c
+           src/add1.c
+           src/add1sp.c
+           src/add1sp1_extracted.c
+           src/add_d.c
+           src/add_ui.c
+           src/agm.c
+           src/ai.c
+           src/asin.c
+           src/asinh.c
+           src/asinu.c
+           src/atan.c
+           src/atan2.c
+           src/atan2u.c
+           src/atanh.c
+           src/atanu.c
+           src/bernoulli.c
+           src/beta.c
+           src/buildopt.c
+           src/cache.c
+           src/cbrt.c
+           src/check.c
+           src/clear.c
+           src/clears.c
+           src/cmp.c
+           src/cmp2.c
+           src/cmp_d.c
+           src/cmp_ld.c
+           src/cmp_si.c
+           src/cmp_ui.c
+           src/cmpabs.c
+           src/cmpabs_ui.c
+           src/comparisons.c
+           src/compound.c
+           src/const_catalan.c
+           src/const_log2.c
+           src/const_pi.c
+           src/constant.c
+           src/copysign.c
+           src/cos.c
+           src/cosh.c
+           src/cosu.c
+           src/cot.c
+           src/coth.c
+           src/csc.c
+           src/csch.c
+           src/d_div.c
+           src/d_sub.c
+           src/digamma.c
+           src/dim.c
+           src/div_2exp.c
+           src/div_2si.c
+           src/div_2ui.c
+           src/div_d.c
+           src/div_ui.c
+           src/dot.c
+           src/dump.c
+           src/eint.c
+           src/eq.c
+           src/erf.c
+           src/erfc.c
+           src/exceptions.c
+           src/exp.c
+           src/exp10.c
+           src/exp10m1.c
+           src/exp2.c
+           src/exp2m1.c
+           src/exp3.c
+           src/exp_2.c
+           src/expm1.c
+           src/extract.c
+           src/factorial.c
+           src/fits_intmax.c
+           src/fits_s.h
+           src/fits_sint.c
+           src/fits_slong.c
+           src/fits_sshort.c
+           src/fits_u.h
+           src/fits_uint.c
+           src/fits_uintmax.c
+           src/fits_ulong.c
+           src/fits_ushort.c
+           src/fma.c
+           src/fmma.c
+           src/fmod_ui.c
+           src/fms.c
+           src/fpif.c
+           src/frac.c
+           src/free_cache.c
+           src/frexp.c
+           src/gamma.c
+           src/gamma_inc.c
+           src/gammaonethird.c
+           src/gen_inverse.h
+           src/generic/mparam.h
+           src/get_d.c
+           src/get_d64.c
+           src/get_exp.c
+           src/get_f.c
+           src/get_float128.c
+           src/get_flt.c
+           src/get_ld.c
+           src/get_q.c
+           src/get_si.c
+           src/get_sj.c
+           src/get_str.c
+           src/get_ui.c
+           src/get_uj.c
+           src/get_z.c
+           src/get_z_2exp.c
+           src/gmp_op.c
+           src/grandom.c
+           src/hypot.c
+           src/init.c
+           src/init2.c
+           src/inits.c
+           src/inits2.c
+           src/inp_str.c
+           src/int_ceil_log2.c
+           src/invert_limb.h
+           src/invsqrt_limb.h
+           src/isinf.c
+           src/isinteger.c
+           src/isnan.c
+           src/isnum.c
+           src/isqrt.c
+           src/isregular.c
+           src/iszero.c
+           src/jn.c
+           src/jyn_asympt.c
+           src/li2.c
+           src/lngamma.c
+           src/log.c
+           src/log10.c
+           src/log10p1.c
+           src/log1p.c
+           src/log2.c
+           src/log2p1.c
+           src/log_ui.c
+           src/logging.c
+           src/min_prec.c
+           src/minmax.c
+           src/modf.c
+           src/mparam_h.in
+           src/mpf2mpfr.h
+           src/mpfr-cvers.h
+           src/mpfr-gmp.c
+           src/mpfr-gmp.h
+           src/mpfr-impl.h
+           src/mpfr-mini-gmp.h
+           src/mpfr-sassert.h
+           src/mpfr-thread.h
+           src/mpfr.h
+           src/mpn_exp.c
+           src/mul.c
+           src/mul_1_extracted.c
+           src/mul_2exp.c
+           src/mul_2si.c
+           src/mul_2ui.c
+           src/mul_d.c
+           src/mul_ui.c
+           src/nbits_ulong.c
+           src/neg.c
+           src/odd_p.c
+           src/out_str.c
+           src/pool.c
+           src/pow.c
+           src/pow_si.c
+           src/pow_sj.c
+           src/pow_ui.c
+           src/pow_uj.c
+           src/pow_z.c
+           src/powerof2.c
+           src/powr.c
+           src/print_raw.c
+           src/print_rnd_mode.c
+           src/printf.c
+           src/random_deviate.c
+           src/random_deviate.h
+           src/rec_sqrt.c
+           src/reldiff.c
+           src/rem1.c
+           src/rint.c
+           src/rndna.c
+           src/root.c
+           src/round_near_x.c
+           src/round_p.c
+           src/round_prec.c
+           src/round_raw_generic.c
+           src/scale2.c
+           src/sec.c
+           src/sech.c
+           src/set.c
+           src/set_d.c
+           src/set_d128.c
+           src/set_d64.c
+           src/set_dfl_prec.c
+           src/set_exp.c
+           src/set_f.c
+           src/set_float128.c
+           src/set_flt.c
+           src/set_inf.c
+           src/set_ld.c
+           src/set_nan.c
+           src/set_prc_raw.c
+           src/set_prec.c
+           src/set_q.c
+           src/set_rnd.c
+           src/set_si.c
+           src/set_si_2exp.c
+           src/set_sj.c
+           src/set_str.c
+           src/set_str_raw.c
+           src/set_ui.c
+           src/set_ui_2exp.c
+           src/set_uj.c
+           src/set_z.c
+           src/set_z_2exp.c
+           src/set_zero.c
+           src/setmax.c
+           src/setmin.c
+           src/setsign.c
+           src/sgn.c
+           src/si_op.c
+           src/signbit.c
+           src/sin.c
+           src/sin_cos.c
+           src/sinh.c
+           src/sinh_cosh.c
+           src/sinu.c
+           src/sqr.c
+           src/sqrt.c
+           src/sqrt_ui.c
+           src/stack_interface.c
+           src/strtofr.c
+           src/sub.c
+           src/sub1.c
+           src/sub1sp.c
+           src/sub1sp1_extracted.c
+           src/sub_d.c
+           src/sub_ui.c
+           src/subnormal.c
+           src/sum.c
+           src/swap.c
+           src/tan.c
+           src/tanh.c
+           src/tanu.c
+           src/total_order.c
+           src/ubf.c
+           src/uceil_exp2.c
+           src/uceil_log2.c
+           src/ufloor_log2.c
+           src/ui_div.c
+           src/ui_pow.c
+           src/ui_pow_ui.c
+           src/ui_sub.c
+           src/urandom.c
+           src/urandomb.c
+           src/vasprintf.c
+           src/version.c
+           src/volatile.c
+           src/yn.c
+           src/zeta.c
+           src/zeta_ui.c
+           tests/cmp_str.c
+           tests/mpf_compat.c
+           tests/mpf_compat.h
+           tests/mpfr-test.h
+           tests/mpfr_compat.c
+           tests/random2.c
+           tests/reuse.c
+           tests/rnd_mode.c
+           tests/tabort_defalloc1.c
+           tests/tabort_defalloc2.c
+           tests/tabort_prec_max.c
+           tests/tabs.c
+           tests/tacos.c
+           tests/tacosh.c
+           tests/tacosu.c
+           tests/tadd.c
+           tests/tadd1sp.c
+           tests/tadd_d.c
+           tests/tadd_ui.c
+           tests/tagm.c
+           tests/tai.c
+           tests/talloc-cache.c
+           tests/talloc.c
+           tests/tasin.c
+           tests/tasinh.c
+           tests/tasinu.c
+           tests/tassert.c
+           tests/tatan.c
+           tests/tatan2u.c
+           tests/tatanh.c
+           tests/tatanu.c
+           tests/taway.c
+           tests/tbeta.c
+           tests/tbuildopt.c
+           tests/tcan_round.c
+           tests/tcbrt.c
+           tests/tcheck.c
+           tests/tcmp.c
+           tests/tcmp2.c
+           tests/tcmp_d.c
+           tests/tcmp_ld.c
+           tests/tcmp_ui.c
+           tests/tcmpabs.c
+           tests/tcomparisons.c
+           tests/tcompound.c
+           tests/tconst_catalan.c
+           tests/tconst_euler.c
+           tests/tconst_log2.c
+           tests/tconst_pi.c
+           tests/tcopysign.c
+           tests/tcos.c
+           tests/tcosh.c
+           tests/tcosu.c
+           tests/tcot.c
+           tests/tcoth.c
+           tests/tcsc.c
+           tests/tcsch.c
+           tests/td_div.c
+           tests/td_sub.c
+           tests/tdigamma.c
+           tests/tdim.c
+           tests/tdiv.c
+           tests/tdiv_d.c
+           tests/tdiv_ui.c
+           tests/tdot.c
+           tests/teint.c
+           tests/teq.c
+           tests/terandom.c
+           tests/terandom_chisq.c
+           tests/terf.c
+           tests/texceptions.c
+           tests/texp.c
+           tests/texp10.c
+           tests/texp10m1.c
+           tests/texp2.c
+           tests/texp2m1.c
+           tests/texpm1.c
+           tests/tfactorial.c
+           tests/tfits.c
+           tests/tfma.c
+           tests/tfmma.c
+           tests/tfmod.c
+           tests/tfms.c
+           tests/tfpif.c
+           tests/tfrac.c
+           tests/tfrexp.c
+           tests/tgamma.c
+           tests/tgamma_inc.c
+           tests/tgeneric.c
+           tests/tgeneric_ui.c
+           tests/tget_d.c
+           tests/tget_d_2exp.c
+           tests/tget_f.c
+           tests/tget_flt.c
+           tests/tget_ld_2exp.c
+           tests/tget_q.c
+           tests/tget_set_d128.c
+           tests/tget_set_d64.c
+           tests/tget_sj.c
+           tests/tget_str.c
+           tests/tget_z.c
+           tests/tgmpop.c
+           tests/tgrandom.c
+           tests/thyperbolic.c
+           tests/thypot.c
+           tests/tinits.c
+           tests/tinp_str.c
+           tests/tinternals.c
+           tests/tisnan.c
+           tests/tisqrt.c
+           tests/tj0.c
+           tests/tj1.c
+           tests/tjn.c
+           tests/tlgamma.c
+           tests/tli2.c
+           tests/tlngamma.c
+           tests/tlog.c
+           tests/tlog10.c
+           tests/tlog10p1.c
+           tests/tlog1p.c
+           tests/tlog2.c
+           tests/tlog2p1.c
+           tests/tlog_ui.c
+           tests/tmin_prec.c
+           tests/tminmax.c
+           tests/tmodf.c
+           tests/tmul.c
+           tests/tmul_2exp.c
+           tests/tmul_d.c
+           tests/tmul_ui.c
+           tests/tnext.c
+           tests/tnrandom.c
+           tests/tnrandom_chisq.c
+           tests/toutimpl.c
+           tests/tpow.c
+           tests/tpow3.c
+           tests/tpow_z.c
+           tests/tpowr.c
+           tests/tprec_round.c
+           tests/trandom.c
+           tests/trandom_deviate.c
+           tests/trec_sqrt.c
+           tests/treldiff.c
+           tests/tremquo.c
+           tests/trint.c
+           tests/trndna.c
+           tests/troot.c
+           tests/trootn_si.c
+           tests/trootn_ui.c
+           tests/tsec.c
+           tests/tsech.c
+           tests/tset.c
+           tests/tset_d.c
+           tests/tset_exp.c
+           tests/tset_f.c
+           tests/tset_float128.c
+           tests/tset_ld.c
+           tests/tset_q.c
+           tests/tset_si.c
+           tests/tset_sj.c
+           tests/tset_str.c
+           tests/tset_z.c
+           tests/tset_z_2exp.c
+           tests/tsgn.c
+           tests/tsi_op.c
+           tests/tsin.c
+           tests/tsin_cos.c
+           tests/tsinh.c
+           tests/tsinh_cosh.c
+           tests/tsinu.c
+           tests/tsqr.c
+           tests/tsqrt.c
+           tests/tsqrt_ui.c
+           tests/tstckintc.c
+           tests/tstdint.c
+           tests/tstrtofr.c
+           tests/tsub.c
+           tests/tsub1sp.c
+           tests/tsub_d.c
+           tests/tsub_ui.c
+           tests/tsubnormal.c
+           tests/tsum.c
+           tests/tswap.c
+           tests/ttan.c
+           tests/ttanh.c
+           tests/ttanu.c
+           tests/ttotal_order.c
+           tests/ttrunc.c
+           tests/tui_div.c
+           tests/tui_pow.c
+           tests/tui_sub.c
+           tests/turandom.c
+           tests/tvalist.c
+           tests/tversion.c
+           tests/ty0.c
+           tests/ty1.c
+           tests/tyn.c
+           tests/tzeta.c
+           tests/tzeta_ui.c
+           tools/bench/mpfrbench.c
+           tools/get_patches.sh
+           tune/bidimensional_sample.c
+           tune/speed.c
+           tune/tuneup.c
+Copyright: 1999-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published
+ by the Free Software Foundation; either version 3 of the License, or (at
+ your option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     Makefile.in
+           aclocal.m4
+           compile
+           configure
+           depcomp
+           doc/Makefile.in
+           install-sh
+           ltmain.sh
+           m4/libtool.m4
+           m4/ltoptions.m4
+           m4/ltsugar.m4
+           m4/ltversion.m4
+           m4/lt~obsolete.m4
+           missing
+           src/Makefile.in
+           test-driver
+           tests/Makefile.in
+           tools/bench/Makefile.in
+           tune/Makefile.in
+Copyright: 1992-2023 Free Software Foundation, Inc.
+           1994 X Consortium
+License:   __AUTO_PERMISSIVE__
+ Autogenerated files with permissive licenses.
+
+Files:     PATCHES
+           VERSION
+           doc/mini-gmp
+           examples/ReadMe
+           mpfr.pc.in
+           tests/inp_str.dat
+           tests/tfpif_r1.dat
+           tests/tfpif_r2.dat
+           tests/tmul.dat
+           tools/bench/README
+           version-ext.sh
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     doc/Makefile.am
+           src/Makefile.am
+           tests/Makefile.am
+           tools/bench/Makefile.am
+           tune/Makefile.am
+Copyright: 2000-2023 Free Software Foundation, Inc.
+License:   PERMISSIVE
+ This file is part of the GNU MPFR Library.
+ .
+ This Makefile.am is free software; the Free Software Foundation
+ gives unlimited permission to copy and/or distribute it,
+ with or without modifications, as long as this notice is preserved.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+ even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ PARTICULAR PURPOSE.
+ .
+ The ".POSIX" line is needed in particular for GNU "make", so that
+ recipes are invoked as if the shell had been passed the -e flag.
+ But note that since GNU Automake adds non-comment lines before it
+ in its generated Makefile, this does not ensure POSIX behavior with
+ other "make" implementations.
+
+Files:     doc/check-typography
+           tools/ck-clz_tab
+           tools/ck-news
+           tools/ck-version-info
+Copyright: 2010-2023 Free Software Foundation, Inc.
+License:   PERMISSIVE
+ This script is free software; the Free Software Foundation
+ gives unlimited permission to copy and/or distribute it,
+ with or without modifications, as long as this notice is preserved.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+ even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ PARTICULAR PURPOSE.
+
+Files:     tests/tfprintf.c
+           tests/tout_str.c
+Copyright: 1999-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ FIXME: The output is not tested (thus coverage data are meaningless).
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     config.guess
+           config.sub
+Copyright: 1992-2022 Free Software Foundation, Inc.
+License:   __NO_LICENSE__
+
+Files:     doc/mpfr.texi
+Copyright: 1991-2023 Free Software Foundation, Inc.
+License:   GFDL-1.2+
+ Permission is granted to copy, distribute and/or modify this document under
+ the terms of the GNU Free Documentation License, Version 1.2 or any later
+ version published by the Free Software Foundation; with no Invariant Sections,
+ with no Front-Cover Texts, and with no Back-Cover Texts.  A copy of the
+ license is included in @ref{GNU Free Documentation License}.
+ .
+ On Debian systems, the complete text of the GNU Free Documentation License
+ Version 1.2 can be found in `/usr/share/common-licenses/GFDL-1.2'.
+
+Files:     doc/mpfr.info
+Copyright: 1991-2023 Free Software Foundation, Inc.
+License:   GFDL-1.2+
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2 or
+ any later version published by the Free Software Foundation; with no
+ Invariant Sections, with no Front-Cover Texts, and with no Back-Cover
+ Texts.  A copy of the license is included in *note GNU Free
+ Documentation License::.
+ INFO-DIR-SECTION Software libraries
+ START-INFO-DIR-ENTRY
+ * mpfr: (mpfr).                 Multiple Precision Floating-Point Reliable Library.
+ END-INFO-DIR-ENTRY
+ .
+ File: mpfr.info,  Node: Top,  Next: Copying,  Prev: (dir),  Up: (dir)
+ .
+ GNU MPFR
+ ********
+ .
+ This manual documents how to install and use the Multiple Precision
+ Floating-Point Reliable Library, version 4.2.1.
+ .
+ Permission is granted to copy, distribute and/or modify this document
+ under the terms of the GNU Free Documentation License, Version 1.2 or
+ any later version published by the Free Software Foundation; with no
+ Invariant Sections, with no Front-Cover Texts, and with no Back-Cover
+ Texts.  A copy of the license is included in *note GNU Free
+ Documentation License::.
+ .
+ * Menu:
+ .
+ * Copying::                     MPFR Copying Conditions (LGPL).
+ * Introduction to MPFR::        Brief introduction to GNU MPFR.
+ * Installing MPFR::             How to configure and compile the MPFR library.
+ * Reporting Bugs::              How to usefully report bugs.
+ * MPFR Basics::                 What every MPFR user should now.
+ * MPFR Interface::              MPFR functions and macros.
+ * API Compatibility::           API compatibility with previous MPFR versions.
+ * MPFR and the IEEE 754 Standard::
+ * Contributors::
+ * References::
+ * GNU Free Documentation License::
+ * Concept Index::
+ * Function and Type Index::
+ .
+ File: mpfr.info,  Node: Copying,  Next: Introduction to MPFR,  Prev: Top,  Up: Top
+ .
+ MPFR Copying Conditions
+ ***********************
+ .
+ The GNU MPFR library (or MPFR for short) is “free”; this means that
+ everyone is free to use it and free to redistribute it on a free basis.
+ The library is not in the public domain; it is copyrighted and there are
+ restrictions on its distribution, but these restrictions are designed to
+ permit everything that a good cooperating citizen would want to do.
+ What is not allowed is to try to prevent others from further sharing any
+ version of this library that they might get from you.
+ .
+ Specifically, we want to make sure that you have the right to give
+ away copies of the library, that you receive source code or else can get
+ it if you want it, that you can change this library or use pieces of it
+ in new free programs, and that you know you can do these things.
+ .
+ To make sure that everyone has such rights, we have to forbid you to
+ deprive anyone else of these rights.  For example, if you distribute
+ copies of the GNU MPFR library, you must give the recipients all the
+ rights that you have.  You must make sure that they, too, receive or can
+ get the source code.  And you must tell them their rights.
+ .
+ Also, for our own protection, we must make certain that everyone
+ finds out that there is no warranty for the GNU MPFR library.  If it is
+ modified by someone else and passed on, we want their recipients to know
+ that what they have is not what we distributed, so that any problems
+ introduced by others will not reflect on our reputation.
+ .
+ The precise conditions of the license for the GNU MPFR library are
+ found in the Lesser General Public License that accompanies the source
+ code.  See the file COPYING.LESSER..
+ .
+ File: mpfr.info,  Node: Introduction to MPFR,  Next: Installing MPFR,  Prev: Copying,  Up: Top
+ .
+ 1 Introduction to MPFR
+ **********************
+ .
+ MPFR is a portable library written in C for arbitrary precision
+ arithmetic on floating-point numbers.  It is based on the GNU MP
+ library.  It aims to provide a class of floating-point numbers with
+ precise semantics.  The main characteristics of MPFR, which make it
+ differ from most arbitrary precision floating-point software tools, are:
+ .
+ • the MPFR code is portable, i.e., the result of any operation does
+ .
+ On Debian systems, the complete text of the GNU Free Documentation License
+ Version 1.2 can be found in `/usr/share/common-licenses/GFDL-1.2'.
+
+Files:     tests/tprintf.c
+Copyright: 2008-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ FIXME: The output is not tested (thus coverage data are meaningless);
+ only the return value is tested (output string length).
+ Knowing the implementation, we may need only some minimal checks:
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     src/sparc64/mparam.h
+Copyright: 2005-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ Generated by MPFR's tuneup.c, 2018-02-22, gcc 7.3.0
+ gcc202.fsffrance.org (UltraSparc T5 (Niagara5)) with gmp snapshot
+ gmp-6.1.99-20180221 (gmp-6.1.2 is broken on this machine),
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     src/mpfr-intmax.h
+Copyright: 2004-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ If you need something defined here, do not include this header file
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     src/erandom.c
+Copyright: 2013-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ Sampling from the exponential distribution with unit mean using the method
+ given in John von Neumann, Various techniques used in connection with random
+ digits, in A. S. Householder, G. E. Forsythe, and H. H. Germond, editors,
+ "Monte Carlo Method", number 12 in Applied Mathematics Series, pp. 36-38
+ (NBS, Washington, DC, 1951), Proceedings of a symposium held June 29-July 1,
+ 1949, in Los Angeles.
+ .
+ A modification to this algorithm is given in:
+ Charles F. F. Karney,
+ "Sampling exactly from the normal distribution",
+ ACM Trans. Math. Software 42(1), 3:1-14 (Jan. 2016).
+ https://dx.doi.org/10.1145/2710016
+ https://arxiv.org/abs/1303.6257
+ Although this improves the bit efficiency, in practice, it results in
+ a slightly slower algorithm for MPFR. So here the original von Neumann
+ algorithm is used.
+ .
+ There are a few "weasel words" regarding the accuracy of this
+ implementation.  The algorithm produces exactly rounded exponential deviates
+ provided that gmp's random number engine delivers truly random bits.  If it
+ did, the algorithm would be perfect; however, this implementation would have
+ problems, e.g., in that the integer part of the exponential deviate is
+ represented by an unsigned long, whereas in reality the integer part in
+ unbounded.  In this implementation, asserts catch overflow in the integer
+ part and similar (very, very) unlikely events.  In reality, of course, gmp's
+ random number engine has a finite internal state (19937 bits in the case of
+ the MT19937 method).  This means that these unlikely events in fact won't
+ occur.  If the asserts are triggered, then this is an indication that the
+ random number engine is defective.  (Even if a hardware random number
+ generator were used, the most likely explanation for the triggering of the
+ asserts would be that the hardware generator was broken.)
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     configure.ac
+Copyright: 1999-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published
+ by the Free Software Foundation; either version 3 of the License, or (at
+ your option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ ])
+ .
+ dnl Add check-news when it checks for more than 15 lines
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     tools/bench/benchtime.h
+Copyright: 1999-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ compute the time to run accurately niter calls of the function for any
+ number of inputs
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     src/powerpc64/mparam.h
+Copyright: 2005-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ Generated by MPFR's tuneup.c, 2018-02-22, gcc 4.8.5
+ generated on gcc110.fsffrance.org (POWER7) with GMP 6.1.2,
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     src/generic/coverage/mparam.h
+Copyright: 2005-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ mparam tuned for coverage test
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     src/div.c
+Copyright: 1999-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ References:
+ [1] Short Division of Long Integers, David Harvey and Paul Zimmermann,
+ Proceedings of the 20th Symposium on Computer Arithmetic (ARITH-20),
+ July 25-27, 2011, pages 7-14.
+ [2] Improved Division by Invariant Integers, Niels Möller and Torbjörn Granlund,
+ IEEE Transactions on Computers, volume 60, number 2, pages 165-175, 2011.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     src/mulders.c
+Copyright: 2005-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ References:
+ [1] Short Division of Long Integers, David Harvey and Paul Zimmermann,
+ Proceedings of the 20th Symposium on Computer Arithmetic (ARITH-20),
+ July 25-27, 2011, pages 7-14.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     src/x86/mparam.h
+Copyright: 2005-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ Generated by MPFR's tuneup.c, 2018-02-22, gcc 6.3.0
+ gcc14.fsffrance.org (Intel(R) Xeon(R) CPU X5450  @ 3.00GHz)
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     doc/README.dev
+Copyright: 2002-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ Notes for the MPFR developers and Git users
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     tests/memory.c
+Copyright: 2001-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ Note: this file originally came from GMP's tests/memory.c
+ (some features have been added).
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     tests/tsprintf.c
+Copyright: 2007-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ Note: If you use a C99-compatible implementation and GMP (or MPIR)
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     src/x86_64/core2/mparam.h
+Copyright: 2005-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ Generated by MPFR's tuneup.c, 2018-02-22, gcc 6.3.0
+ gcc14.fsffrance.org (Intel(R) Xeon(R) CPU X5450 @ 3.00GHz) with gmp 6.1.2
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     TODO
+Copyright: 1999-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ Table of contents:
+ 1. Documentation
+ 2. Compiler/library detection
+ 3. Changes in existing functions
+ 4. New functions to implement
+ 5. Efficiency
+ 6. Miscellaneous
+ 7. Portability
+ .
+ ##############################################################################
+ 1. Documentation
+ ##############################################################################
+ .
+ - add a description of the algorithms used and a proof of correctness
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     src/arm/mparam.h
+Copyright: 2005-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ Generated by MPFR's tuneup.c, 2018-02-22, gcc 7.3.0
+ calva.loria.fr ARMv7 Processor rev 5 (v7l) with gmp-6.1.2,
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     tests/tpow_all.c
+Copyright: 2008-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ Note: some tests of the other tpow* test files could be moved there.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     INSTALL
+Copyright: 1999-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ Installing GNU MPFR
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     tests/tl2b.c
+Copyright: 2007-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ Execute this program with an argument to generate code that initializes
+ the l2b constants.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     tools/check_mparam.c
+Copyright: 2018-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with this program; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ To check some mparam.h tables:
+ 1) make a symbolic link to the corresponding mparam.h or
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     src/mp_clz_tab.c
+Copyright: 1991-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ THE CONTENTS OF THIS FILE ARE FOR INTERNAL USE AND MAY CHANGE
+ INCOMPATIBLY OR DISAPPEAR IN A FUTURE GNU MPFR RELEASE.
+ .
+ This file is part of the GNU MPFR Library.
+ It has been copied and adapted from the GNU MP Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     src/mpfr-mini-gmp.c
+Copyright: 2014-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ The following include will do 2 things: include the config.h
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     src/x86_64/mparam.h
+Copyright: 2005-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ Generated by MPFR's tuneup.c, 2018-02-22, gcc 7.3.0
+ tomate.loria.fr Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz with GMP 6.1.2,
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     src/amd/mparam.h
+Copyright: 2005-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ Generated by MPFR's tuneup.c, 2018-02-22, gcc 6.3.0
+ gcc13.fsffrance.org (Dual-Core AMD Opteron(tm) Processor 2212)
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     src/get_d128.c
+Copyright: 2006-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ Warning! Do not use any conversion between binary and decimal types,
+ otherwise GCC will generate from 2 to 3 MB of code (depending on the
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     src/nrandom.c
+Copyright: 2013-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ Sampling from the normal distribution with zero mean and unit variance.
+ This uses Algorithm N given in:
+ Charles F. F. Karney,
+ "Sampling exactly from the normal distribution",
+ ACM Trans. Math. Software 42(1), 3:1-14 (Jan. 2016).
+ https://dx.doi.org/10.1145/2710016
+ https://arxiv.org/abs/1303.6257
+ .
+ Note: the algorithm implemented here has been improved in
+ Du, Fan and Wei in "An improved exact sampling algorithm for the standard
+ normal distribution", Computational Statistics, 2021,
+ https://doi.org/10.1007/s00180-021-01136-w
+ .
+ The implementation here closely follows the C++ one given in the paper
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     src/const_euler.c
+Copyright: 2001-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ The approximation error bound uses Theorem 1 and Remark 2 in
+ https://arxiv.org/pdf/1312.0039v1.pdf
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     src/mips/mparam.h
+Copyright: 2005-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ Generated by MPFR's tuneup.c, 2018-02-22, gcc 4.6.3
+ on gcc22.fsffrance.org (Cavium Octeon II V0.1) with GMP 6.1.2,
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     NEWS
+Copyright: 2000-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ ##############################################################################
+ .
+ Changes from version 4.2.0 to version 4.2.1:
+ - Bug fixes (see <https://www.mpfr.org/mpfr-4.2.0/#fixed> and/or the
+ ChangeLog file).
+ - Improved MPFR manual.
+ - Configure tests: replaced the test of the link with GMP, in order to
+ avoid the use of a function without a prototype (Autoconf issue), as
+ this is obsolescent in ISO C. The new test should be more robust.
+ .
+ Changes from versions 4.1.* to version 4.2.0:
+ - The "fondue savoyarde" release.
+ - Binary compatible with MPFR 4.0.* and 4.1.*, though some minor changes in
+ the behavior of the formatted output functions may be visible, regarded
+ as underspecified behavior or bug fixes (see below).
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     src/ieee_floats.h
+Copyright: 1999-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ "double" NaN and infinities are written as explicit bytes to be sure of
+ getting what we want, and to be sure of not depending on libm.
+ .
+ Could use 4-byte "float" values and let the code convert them, but it
+ seems more direct to give exactly what we want.  Certainly for gcc 3.0.2
+ on alphaev56-unknown-freebsd4.3 the NaN must be 8-bytes, since that
+ compiler+system was seen incorrectly converting from a "float" NaN.
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     tools/ck-copyright-notice
+Copyright: 2008-2023 Free Software Foundation, Inc.
+License:   PERMISSIVE
+ This script is free software; the Free Software Foundation
+ gives unlimited permission to copy and/or distribute it,
+ with or without modifications, as long as this notice is preserved.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+ even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ PARTICULAR PURPOSE.
+ .
+ ck-copyright-notice can be run from the tools directory
+
+Files:     tools/ck-mparam
+Copyright: 2011-2023 Free Software Foundation, Inc.
+License:   PERMISSIVE
+ This script is free software; the Free Software Foundation
+ gives unlimited permission to copy and/or distribute it,
+ with or without modifications, as long as this notice is preserved.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+ even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ PARTICULAR PURPOSE.
+ .
+ Note: This script must be run from a writable directory (an executable
+
+Files:     Makefile.am
+Copyright: 2000-2023 Free Software Foundation, Inc.
+License:   PERMISSIVE
+ This file is part of the GNU MPFR Library.
+ .
+ This Makefile.am is free software; the Free Software Foundation
+ gives unlimited permission to copy and/or distribute it,
+ with or without modifications, as long as this notice is preserved.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+ even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+ PARTICULAR PURPOSE.
+ .
+ Warning! Do not add rules for DISTFILES files (such as ChangeLog),
+ because GNU Automake will create a "distdir-am: $(DISTFILES)" rule,
+ which could regenerate such files, and this is not allowed as this
+ changes files from the source directory; for this reason, this
+ makes "make distcheck" fail. To update the ChangeLog file, use
+ "make update-changelog" or run the tools/update-changelog script
+ directly.
+ .
+ The ".POSIX" line is needed in particular for GNU "make", so that
+ recipes are invoked as if the shell had been passed the -e flag.
+ But note that since GNU Automake adds non-comment lines before it
+ in its generated Makefile, this does not ensure POSIX behavior with
+ other "make" implementations.
+
+Files:     COPYING.LESSER
+Copyright: 2007 Free Software Foundation, Inc.
+License:   __HEADER___
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+ .
+ This version of the GNU Lesser General Public License incorporates
+ the terms and conditions of version 3 of the GNU General Public
+ License, supplemented by the additional permissions listed below.
+ .
+ 0. Additional Definitions.
+ .
+ As used herein, "this License" refers to version 3 of the GNU Lesser
+ General Public License, and the "GNU GPL" refers to version 3 of the GNU
+ General Public License.
+ .
+ "The Library" refers to a covered work governed by this License,
+ other than an Application or a Combined Work as defined below.
+ .
+ An "Application" is any work that makes use of an interface provided
+ by the Library, but which is not otherwise based on the Library.
+ Defining a subclass of a class defined by the Library is deemed a mode
+ of using an interface provided by the Library.
+ .
+ A "Combined Work" is a work produced by combining or linking an
+ Application with the Library.  The particular version of the Library
+ with which the Combined Work was made is also called the "Linked
+ Version".
+ .
+ The "Minimal Corresponding Source" for a Combined Work means the
+ Corresponding Source for the Combined Work, excluding any source code
+ for portions of the Combined Work that, considered in isolation, are
+ based on the Application, and not on the Linked Version.
+ .
+ The "Corresponding Application Code" for a Combined Work means the
+ object code and/or source code for the Application, including any data
+ and utility programs needed for reproducing the Combined Work from the
+ Application, but excluding the System Libraries of the Combined Work.
+ .
+ 1. Exception to Section 3 of the GNU GPL.
+ .
+ You may convey a covered work under sections 3 and 4 of this License
+ without being bound by section 3 of the GNU GPL.
+ .
+ 2. Conveying Modified Versions.
+ .
+ If you modify a copy of the Library, and, in your modifications, a
+ facility refers to a function or data to be supplied by an Application
+ that uses the facility (other than as an argument passed when the
+ facility is invoked), then you may convey a copy of the modified
+ version:
+ .
+ a) under this License, provided that you make a good faith effort to
+ ensure that, in the event an Application does not supply the
+ function or data, the facility still operates, and performs
+ whatever part of its purpose remains meaningful, or
+ .
+ b) under the GNU GPL, with none of the additional permissions of
+ this License applicable to that copy.
+ .
+ 3. Object Code Incorporating Material from Library Header Files.
+ .
+ The object code form of an Application may incorporate material from
+ a header file that is part of the Library.  You may convey such object
+ code under terms of your choice, provided that, if the incorporated
+ material is not limited to numerical parameters, data structure
+ layouts and accessors, or small macros, inline functions and templates
+ (ten or fewer lines in length), you do both of the following:
+ .
+ a) Give prominent notice with each copy of the object code that the
+ Library is used in it and that the Library and its use are
+ covered by this License.
+ .
+ b) Accompany the object code with a copy of the GNU GPL and this license
+ document.
+ .
+ 4. Combined Works.
+ .
+ You may convey a Combined Work under terms of your choice that,
+ taken together, effectively do not restrict modification of the
+ portions of the Library contained in the Combined Work and reverse
+ engineering for debugging such modifications, if you also do each of
+ the following:
+ .
+ a) Give prominent notice with each copy of the Combined Work that
+ the Library is used in it and that the Library and its use are
+ covered by this License.
+ .
+ b) Accompany the Combined Work with a copy of the GNU GPL and this license
+ document.
+ .
+ c) For a Combined Work that displays copyright notices during
+ execution, include the copyright notice for the Library among
+ these notices, as well as a reference directing the user to the
+ copies of the GNU GPL and this license document.
+ .
+ d) Do one of the following:
+ .
+ 0) Convey the Minimal Corresponding Source under the terms of this
+ License, and the Corresponding Application Code in a form
+ suitable for, and under terms that permit, the user to
+ recombine or relink the Application with a modified version of
+ the Linked Version to produce a modified Combined Work, in the
+ manner specified by section 6 of the GNU GPL for conveying
+ Corresponding Source.
+ .
+ 1) Use a suitable shared library mechanism for linking with the
+ Library.  A suitable mechanism is one that (a) uses at run time
+ a copy of the Library already present on the user's computer
+ system, and (b) will operate properly with a modified version
+ of the Library that is interface-compatible with the Linked
+ Version.
+ .
+ e) Provide Installation Information, but only if you would otherwise
+ be required to provide such information under section 6 of the
+ GNU GPL, and only to the extent that such information is
+ necessary to install and execute a modified version of the
+ Combined Work produced by recombining or relinking the
+ Application with a modified version of the Linked Version. (If
+ you use option 4d0, the Installation Information must accompany
+ the Minimal Corresponding Source and Corresponding Application
+ Code. If you use option 4d1, you must provide the Installation
+ Information in the manner specified by section 6 of the GNU GPL
+ for conveying Corresponding Source.)
+ .
+ 5. Combined Libraries.
+ .
+ You may place library facilities that are a work based on the
+ Library side by side in a single library together with other library
+ facilities that are not Applications and are not covered by this
+ License, and convey such a combined library under terms of your
+ choice, if you do both of the following:
+ .
+ a) Accompany the combined library with a copy of the same work based
+ on the Library, uncombined with any other library facilities,
+ conveyed under the terms of this License.
+ .
+ b) Give prominent notice with the combined library that part of it
+ is a work based on the Library, and explaining where to find the
+ accompanying uncombined form of the same work.
+ .
+ 6. Revised Versions of the GNU Lesser General Public License.
+ .
+ The Free Software Foundation may publish revised and/or new versions
+ of the GNU Lesser General Public License from time to time. Such new
+ versions will be similar in spirit to the present version, but may
+ differ in detail to address new problems or concerns.
+ .
+ Each version is given a distinguishing version number. If the
+ Library as you received it specifies that a certain numbered version
+ of the GNU Lesser General Public License "or any later version"
+ applies to it, you have the option of following the terms and
+ conditions either of that published version or of any later version
+ published by the Free Software Foundation. If the Library as you
+ received it does not specify a version number of the GNU Lesser
+ General Public License, you may choose any version of the GNU Lesser
+ General Public License ever published by the Free Software Foundation.
+ .
+ If the Library as you received it specifies that a proxy can decide
+ whether future versions of the GNU Lesser General Public License shall
+ apply, that proxy's public statement of acceptance of any version is
+ permanent authorization for you to choose that version for the
+ Library.
+
+Files:     tests/tests.c
+Copyright: 2001-2023 Free Software Foundation, Inc.
+License:   __HEADER___
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ NOTE. Some tests on macro definitions are already done in src/init2.c
+ as static assertions (in general). This allows one to get a failure at
+ build time in case of inconsistency (probably due to search path issues
+ in header file inclusion). This does not need to be done again in the
+ test suite.
+
+Files:     doc/fdl.texi
+Copyright: __NO_COPYRIGHT__ in: doc/fdl.texi
+License:   __UNKNOWN__
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+
+Files:     AUTHORS
+Copyright: __NO_COPYRIGHT__ in: AUTHORS
+License:   __UNKNOWN__
+ Guillaume Hanrot        Main author
+
+Files:     src/mpfr-longlong.h
+Copyright: 1991-2023 Free Software Foundation, Inc.
+License:   __UNKNOWN__
+ This file is part of the GNU MPFR Library and has been copied from
+ GNU MP 18339:32dc4af70f95, with the following changes:
+ * the copyright notice (note: only LGPL 3+ is used in MPFR);
+ * the code declared as added for MPFR just below these comments;
+
+Files:     doc/texinfo.tex
+Copyright: 1985-2022 Free Software Foundation, Inc.
+License:   GPL-3.0+ with unknown exception
+ This texinfo.tex file is free software: you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation, either version 3 of the
+ License, or (at your option) any later version.
+ .
+ This texinfo.tex file is distributed in the hope that it will be
+ useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+ of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ .
+ As a special exception, when this file is read by TeX when processing
+ a Texinfo source document, you may use the result without
+ restriction. This Exception is an additional permission under section 7
+ of the GNU General Public License, version 3 ("GPLv3").
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+Files:     ar-lib
+Copyright: 2010-2021 Free Software Foundation, Inc.
+License:   GPL-2.0+ with autoconf exception
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2, or (at your option)
+ any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ .
+ As a special exception to the GNU General Public License, if you
+ distribute this file as part of a program that contains a
+ configuration script generated by Autoconf, you may include it under
+ the same distribution terms that you use for the rest of that program.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 2 can be found in `/usr/share/common-licenses/GPL-2'.
+
+Files:     README
+Copyright: 2000-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+ with unknown exception
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ ##############################################################################
+ .
+ The GNU MPFR distribution contains the following files:
+ (This does not apply to code retrieved by Git.)
+ .
+ COPYING         - the GNU General Public License, version 3
+ COPYING.LESSER  - the GNU Lesser General Public License, version 3
+ ChangeLog       - the log of changes
+ INSTALL         - how to install MPFR (see also mpfr.texi)
+ Makefile*       - files for building the library
+ NEWS            - new features with respect to previous versions
+ PATCHES         - empty file (until patches are applied)
+ .
+ TODO            - what remains to do (any help is welcome!)
+ VERSION         - version of MPFR (next release version if taken by Git)
+ ac*.m4          - automatic configuration files
+ ar-lib          - auxiliary installation file
+ compile         - auxiliary installation file
+ config.*        - auxiliary installation files
+ configure*      - configuration files
+ depcomp         - auxiliary installation file
+ doc/            - directory containing documentation (manual, FAQ, etc.)
+ examples/       - directory containing examples
+ install-sh      - installation file
+ ltmain.sh       - auxiliary installation file
+ m4/             - directory containing additional configuration files
+ missing         - auxiliary installation file
+ mpfr.pc.in      - auxiliary pkg-config file
+ src/            - directory containing the MPFR source
+ test-driver     - auxiliary installation file
+ tests/          - directory containing the testsuite (for "make check")
+ tools/          - directory containing various tools
+ tune/           - directory containing files for tuning MPFR
+ version-ext.sh  - script to get Git-related MPFR version information
+ .
+ According to the special exception to the GNU General Public License,
+ the autotools files compile, config.sub, config.guess, ltmain.sh,
+ m4/libtool.m4 and missing are distributed under the same licence of
+ GNU MPFR.
+ .
+ For any copyright year range specified as YYYY-ZZZZ in this package,
+ note that the range specifies every single year in that closed interval.
+ .
+ Official GNU MPFR website:
+ .
+ https://www.mpfr.org/
+ .
+ You can get the latest source code by Git at Inria GitLab:
+ .
+ https://gitlab.inria.fr/mpfr/mpfr
+ .
+ In this case, you should read the file "doc/README.dev" in the working tree
+ or online:
+ .
+ https://gitlab.inria.fr/mpfr/mpfr/-/blob/4.2/doc/README.dev
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     src/next.c
+Copyright: 1999-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+ with unknown exception
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ Note concerning the exceptions: In case of NaN result, the NaN flag is
+ set as usual. No underflow or overflow is generated (this contradicts
+ the obsolete IEEE 754-1985 standard for nextafter, but conforms to the
+ IEEE 754-2008/2019 standards, where the nextUp and nextDown operations
+ replaced nextafter).
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     BUGS
+Copyright: 1999-2023 Free Software Foundation, Inc.
+License:   LGPL-3.0+ with unknown exception
+ This file is part of the GNU MPFR Library.
+ .
+ The GNU MPFR Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 3 of the License, or (at your
+ option) any later version.
+ .
+ The GNU MPFR Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU MPFR Library; see the file COPYING.LESSER.  If not, see
+ https://www.gnu.org/licenses/ or write to the Free Software Foundation, Inc.,
+ 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+ .
+ ##############################################################################
+ .
+ Known bugs:
+ .
+ * The overflow/underflow exceptions may be badly handled in some functions;
+ specially when the intermediary internal results have exponent which
+ exceeds the hardware limit (2^30 for a 32 bits CPU, and 2^62 for a 64 bits
+ CPU) or the exact result is close to an overflow/underflow threshold.
+ .
+ * Under Linux/x86 with the traditional FPU, some functions do not work
+ if the FPU rounding precision has been changed to single (this is a
+ bad practice and should be useless, but one never knows what other
+ software will do).
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ Version 3 can be found in `/usr/share/common-licenses/LGPL-3'.
+
+Files:     m4/ax_pthread.m4
+Copyright: 2008 Steven G. Johnson <stevenj@alum.mit.edu>
+           2011 Daniel Richard G. <skunk@iSKUNK.ORG>
+           2019 Marc Stevens <marc.stevens@cwi.nl>
+License:   GPL-3.0+ with unknown exception *** check multiple exceptions ***
+ This program is free software: you can redistribute it and/or modify it
+ under the terms of the GNU General Public License as published by the
+ Free Software Foundation, either version 3 of the License, or (at your
+ option) any later version.
+ .
+ This program is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+ Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along
+ with this program. If not, see <https://www.gnu.org/licenses/>.
+ .
+ As a special exception, the respective Autoconf Macro's copyright owner
+ gives unlimited permission to copy, distribute and modify the configure
+ scripts that are the output of Autoconf when processing the Macro. You
+ need not follow the terms of the GNU General Public License when using
+ or distributing such scripts, even though portions of the text of the
+ Macro appear in them. The GNU General Public License (GPL) does govern
+ all other use of the material that constitutes the Autoconf Macro.
+ .
+ This special exception to the GPL applies to versions of the Autoconf
+ Macro released by the Autoconf Archive. When you make and distribute a
+ modified version of the Autoconf Macro, you may extend this special
+ exception to the GPL to apply to your modified version as well.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+#----------------------------------------------------------------------------
+# xml and html files (skipped):
+#         doc/FAQ.html
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
+
+#----------------------------------------------------------------------------
+# License file: COPYING
+                     GNU GENERAL PUBLIC LICENSE
+                        Version 3, 29 June 2007
+ .
+  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+  Everyone is permitted to copy and distribute verbatim copies
+  of this license document, but changing it is not allowed.
+ .
+                             Preamble
+ .
+   The GNU General Public License is a free, copyleft license for
+ software and other kinds of works.
+ .
+   The licenses for most software and other practical works are designed
+ to take away your freedom to share and change the works.  By contrast,
+ the GNU General Public License is intended to guarantee your freedom to
+ share and change all versions of a program--to make sure it remains free
+ software for all its users.  We, the Free Software Foundation, use the
+ GNU General Public License for most of our software; it applies also to
+ any other work released this way by its authors.  You can apply it to
+ your programs, too.
+ .
+   When we speak of free software, we are referring to freedom, not
+ price.  Our General Public Licenses are designed to make sure that you
+ have the freedom to distribute copies of free software (and charge for
+ them if you wish), that you receive source code or can get it if you
+ want it, that you can change the software or use pieces of it in new
+ free programs, and that you know you can do these things.
+ .
+   To protect your rights, we need to prevent others from denying you
+ these rights or asking you to surrender the rights.  Therefore, you have
+ certain responsibilities if you distribute copies of the software, or if
+ you modify it: responsibilities to respect the freedom of others.
+ .
+   For example, if you distribute copies of such a program, whether
+ gratis or for a fee, you must pass on to the recipients the same
+ freedoms that you received.  You must make sure that they, too, receive
+ or can get the source code.  And you must show them these terms so they
+ know their rights.
+ .
+   Developers that use the GNU GPL protect your rights with two steps:
+ (1) assert copyright on the software, and (2) offer you this License
+ giving you legal permission to copy, distribute and/or modify it.
+ .
+   For the developers' and authors' protection, the GPL clearly explains
+ that there is no warranty for this free software.  For both users' and
+ authors' sake, the GPL requires that modified versions be marked as
+ changed, so that their problems will not be attributed erroneously to
+ authors of previous versions.
+ .
+   Some devices are designed to deny users access to install or run
+ modified versions of the software inside them, although the manufacturer
+ can do so.  This is fundamentally incompatible with the aim of
+ protecting users' freedom to change the software.  The systematic
+ pattern of such abuse occurs in the area of products for individuals to
+ use, which is precisely where it is most unacceptable.  Therefore, we
+ have designed this version of the GPL to prohibit the practice for those
+ products.  If such problems arise substantially in other domains, we
+ stand ready to extend this provision to those domains in future versions
+ of the GPL, as needed to protect the freedom of users.
+ .
+   Finally, every program is threatened constantly by software patents.
+ States should not allow patents to restrict development and use of
+ software on general-purpose computers, but in those that do, we wish to
+ avoid the special danger that patents applied to a free program could
+ make it effectively proprietary.  To prevent this, the GPL assures that
+ patents cannot be used to render the program non-free.
+ .
+   The precise terms and conditions for copying, distribution and
+ modification follow.
+ .
+                        TERMS AND CONDITIONS
+ .
+   0. Definitions.
+ .
+   "This License" refers to version 3 of the GNU General Public License.
+ .
+   "Copyright" also means copyright-like laws that apply to other kinds of
+ works, such as semiconductor masks.
+ .
+   "The Program" refers to any copyrightable work licensed under this
+ License.  Each licensee is addressed as "you".  "Licensees" and
+ "recipients" may be individuals or organizations.
+ .
+   To "modify" a work means to copy from or adapt all or part of the work
+ in a fashion requiring copyright permission, other than the making of an
+ exact copy.  The resulting work is called a "modified version" of the
+ earlier work or a work "based on" the earlier work.
+ .
+   A "covered work" means either the unmodified Program or a work based
+ on the Program.
+ .
+   To "propagate" a work means to do anything with it that, without
+ permission, would make you directly or secondarily liable for
+ infringement under applicable copyright law, except executing it on a
+ computer or modifying a private copy.  Propagation includes copying,
+ distribution (with or without modification), making available to the
+ public, and in some countries other activities as well.
+ .
+   To "convey" a work means any kind of propagation that enables other
+ parties to make or receive copies.  Mere interaction with a user through
+ a computer network, with no transfer of a copy, is not conveying.
+ .
+   An interactive user interface displays "Appropriate Legal Notices"
+ to the extent that it includes a convenient and prominently visible
+ feature that (1) displays an appropriate copyright notice, and (2)
+ tells the user that there is no warranty for the work (except to the
+ extent that warranties are provided), that licensees may convey the
+ work under this License, and how to view a copy of this License.  If
+ the interface presents a list of user commands or options, such as a
+ menu, a prominent item in the list meets this criterion.
+ .
+   1. Source Code.
+ .
+   The "source code" for a work means the preferred form of the work
+ for making modifications to it.  "Object code" means any non-source
+ form of a work.
+ .
+   A "Standard Interface" means an interface that either is an official
+ standard defined by a recognized standards body, or, in the case of
+ interfaces specified for a particular programming language, one that
+ is widely used among developers working in that language.
+ .
+   The "System Libraries" of an executable work include anything, other
+ than the work as a whole, that (a) is included in the normal form of
+ packaging a Major Component, but which is not part of that Major
+ Component, and (b) serves only to enable use of the work with that
+ Major Component, or to implement a Standard Interface for which an
+ implementation is available to the public in source code form.  A
+ "Major Component", in this context, means a major essential component
+ (kernel, window system, and so on) of the specific operating system
+ (if any) on which the executable work runs, or a compiler used to
+ produce the work, or an object code interpreter used to run it.
+ .
+   The "Corresponding Source" for a work in object code form means all
+ the source code needed to generate, install, and (for an executable
+ work) run the object code and to modify the work, including scripts to
+ control those activities.  However, it does not include the work's
+ System Libraries, or general-purpose tools or generally available free
+ programs which are used unmodified in performing those activities but
+ which are not part of the work.  For example, Corresponding Source
+ includes interface definition files associated with source files for
+ the work, and the source code for shared libraries and dynamically
+ linked subprograms that the work is specifically designed to require,
+ such as by intimate data communication or control flow between those
+ subprograms and other parts of the work.
+ .
+   The Corresponding Source need not include anything that users
+ can regenerate automatically from other parts of the Corresponding
+ Source.
+ .
+   The Corresponding Source for a work in source code form is that
+ same work.
+ .
+   2. Basic Permissions.
+ .
+   All rights granted under this License are granted for the term of
+ copyright on the Program, and are irrevocable provided the stated
+ conditions are met.  This License explicitly affirms your unlimited
+ permission to run the unmodified Program.  The output from running a
+ covered work is covered by this License only if the output, given its
+ content, constitutes a covered work.  This License acknowledges your
+ rights of fair use or other equivalent, as provided by copyright law.
+ .
+   You may make, run and propagate covered works that you do not
+ convey, without conditions so long as your license otherwise remains
+ in force.  You may convey covered works to others for the sole purpose
+ of having them make modifications exclusively for you, or provide you
+ with facilities for running those works, provided that you comply with
+ the terms of this License in conveying all material for which you do
+ not control copyright.  Those thus making or running the covered works
+ for you must do so exclusively on your behalf, under your direction
+ and control, on terms that prohibit them from making any copies of
+ your copyrighted material outside their relationship with you.
+ .
+   Conveying under any other circumstances is permitted solely under
+ the conditions stated below.  Sublicensing is not allowed; section 10
+ makes it unnecessary.
+ .
+   3. Protecting Users' Legal Rights From Anti-Circumvention Law.
+ .
+   No covered work shall be deemed part of an effective technological
+ measure under any applicable law fulfilling obligations under article
+ 11 of the WIPO copyright treaty adopted on 20 December 1996, or
+ similar laws prohibiting or restricting circumvention of such
+ measures.
+ .
+   When you convey a covered work, you waive any legal power to forbid
+ circumvention of technological measures to the extent such circumvention
+ is effected by exercising rights under this License with respect to
+ the covered work, and you disclaim any intention to limit operation or
+ modification of the work as a means of enforcing, against the work's
+ users, your or third parties' legal rights to forbid circumvention of
+ technological measures.
+ .
+   4. Conveying Verbatim Copies.
+ .
+   You may convey verbatim copies of the Program's source code as you
+ receive it, in any medium, provided that you conspicuously and
+ appropriately publish on each copy an appropriate copyright notice;
+ keep intact all notices stating that this License and any
+ non-permissive terms added in accord with section 7 apply to the code;
+ keep intact all notices of the absence of any warranty; and give all
+ recipients a copy of this License along with the Program.
+ .
+   You may charge any price or no price for each copy that you convey,
+ and you may offer support or warranty protection for a fee.
+ .
+   5. Conveying Modified Source Versions.
+ .
+   You may convey a work based on the Program, or the modifications to
+ produce it from the Program, in the form of source code under the
+ terms of section 4, provided that you also meet all of these conditions:
+ .
+     a) The work must carry prominent notices stating that you modified
+     it, and giving a relevant date.
+ .
+     b) The work must carry prominent notices stating that it is
+     released under this License and any conditions added under section
+     7.  This requirement modifies the requirement in section 4 to
+     "keep intact all notices".
+ .
+     c) You must license the entire work, as a whole, under this
+     License to anyone who comes into possession of a copy.  This
+     License will therefore apply, along with any applicable section 7
+     additional terms, to the whole of the work, and all its parts,
+     regardless of how they are packaged.  This License gives no
+     permission to license the work in any other way, but it does not
+     invalidate such permission if you have separately received it.
+ .
+     d) If the work has interactive user interfaces, each must display
+     Appropriate Legal Notices; however, if the Program has interactive
+     interfaces that do not display Appropriate Legal Notices, your
+     work need not make them do so.
+ .
+   A compilation of a covered work with other separate and independent
+ works, which are not by their nature extensions of the covered work,
+ and which are not combined with it such as to form a larger program,
+ in or on a volume of a storage or distribution medium, is called an
+ "aggregate" if the compilation and its resulting copyright are not
+ used to limit the access or legal rights of the compilation's users
+ beyond what the individual works permit.  Inclusion of a covered work
+ in an aggregate does not cause this License to apply to the other
+ parts of the aggregate.
+ .
+   6. Conveying Non-Source Forms.
+ .
+   You may convey a covered work in object code form under the terms
+ of sections 4 and 5, provided that you also convey the
+ machine-readable Corresponding Source under the terms of this License,
+ in one of these ways:
+ .
+     a) Convey the object code in, or embodied in, a physical product
+     (including a physical distribution medium), accompanied by the
+     Corresponding Source fixed on a durable physical medium
+     customarily used for software interchange.
+ .
+     b) Convey the object code in, or embodied in, a physical product
+     (including a physical distribution medium), accompanied by a
+     written offer, valid for at least three years and valid for as
+     long as you offer spare parts or customer support for that product
+     model, to give anyone who possesses the object code either (1) a
+     copy of the Corresponding Source for all the software in the
+     product that is covered by this License, on a durable physical
+     medium customarily used for software interchange, for a price no
+     more than your reasonable cost of physically performing this
+     conveying of source, or (2) access to copy the
+     Corresponding Source from a network server at no charge.
+ .
+     c) Convey individual copies of the object code with a copy of the
+     written offer to provide the Corresponding Source.  This
+     alternative is allowed only occasionally and noncommercially, and
+     only if you received the object code with such an offer, in accord
+     with subsection 6b.
+ .
+     d) Convey the object code by offering access from a designated
+     place (gratis or for a charge), and offer equivalent access to the
+     Corresponding Source in the same way through the same place at no
+     further charge.  You need not require recipients to copy the
+     Corresponding Source along with the object code.  If the place to
+     copy the object code is a network server, the Corresponding Source
+     may be on a different server (operated by you or a third party)
+     that supports equivalent copying facilities, provided you maintain
+     clear directions next to the object code saying where to find the
+     Corresponding Source.  Regardless of what server hosts the
+     Corresponding Source, you remain obligated to ensure that it is
+     available for as long as needed to satisfy these requirements.
+ .
+     e) Convey the object code using peer-to-peer transmission, provided
+     you inform other peers where the object code and Corresponding
+     Source of the work are being offered to the general public at no
+     charge under subsection 6d.
+ .
+   A separable portion of the object code, whose source code is excluded
+ from the Corresponding Source as a System Library, need not be
+ included in conveying the object code work.
+ .
+   A "User Product" is either (1) a "consumer product", which means any
+ tangible personal property which is normally used for personal, family,
+ or household purposes, or (2) anything designed or sold for incorporation
+ into a dwelling.  In determining whether a product is a consumer product,
+ doubtful cases shall be resolved in favor of coverage.  For a particular
+ product received by a particular user, "normally used" refers to a
+ typical or common use of that class of product, regardless of the status
+ of the particular user or of the way in which the particular user
+ actually uses, or expects or is expected to use, the product.  A product
+ is a consumer product regardless of whether the product has substantial
+ commercial, industrial or non-consumer uses, unless such uses represent
+ the only significant mode of use of the product.
+ .
+   "Installation Information" for a User Product means any methods,
+ procedures, authorization keys, or other information required to install
+ and execute modified versions of a covered work in that User Product from
+ a modified version of its Corresponding Source.  The information must
+ suffice to ensure that the continued functioning of the modified object
+ code is in no case prevented or interfered with solely because
+ modification has been made.
+ .
+   If you convey an object code work under this section in, or with, or
+ specifically for use in, a User Product, and the conveying occurs as
+ part of a transaction in which the right of possession and use of the
+ User Product is transferred to the recipient in perpetuity or for a
+ fixed term (regardless of how the transaction is characterized), the
+ Corresponding Source conveyed under this section must be accompanied
+ by the Installation Information.  But this requirement does not apply
+ if neither you nor any third party retains the ability to install
+ modified object code on the User Product (for example, the work has
+ been installed in ROM).
+ .
+   The requirement to provide Installation Information does not include a
+ requirement to continue to provide support service, warranty, or updates
+ for a work that has been modified or installed by the recipient, or for
+ the User Product in which it has been modified or installed.  Access to a
+ network may be denied when the modification itself materially and
+ adversely affects the operation of the network or violates the rules and
+ protocols for communication across the network.
+ .
+   Corresponding Source conveyed, and Installation Information provided,
+ in accord with this section must be in a format that is publicly
+ documented (and with an implementation available to the public in
+ source code form), and must require no special password or key for
+ unpacking, reading or copying.
+ .
+   7. Additional Terms.
+ .
+   "Additional permissions" are terms that supplement the terms of this
+ License by making exceptions from one or more of its conditions.
+ Additional permissions that are applicable to the entire Program shall
+ be treated as though they were included in this License, to the extent
+ that they are valid under applicable law.  If additional permissions
+ apply only to part of the Program, that part may be used separately
+ under those permissions, but the entire Program remains governed by
+ this License without regard to the additional permissions.
+ .
+   When you convey a copy of a covered work, you may at your option
+ remove any additional permissions from that copy, or from any part of
+ it.  (Additional permissions may be written to require their own
+ removal in certain cases when you modify the work.)  You may place
+ additional permissions on material, added by you to a covered work,
+ for which you have or can give appropriate copyright permission.
+ .
+   Notwithstanding any other provision of this License, for material you
+ add to a covered work, you may (if authorized by the copyright holders of
+ that material) supplement the terms of this License with terms:
+ .
+     a) Disclaiming warranty or limiting liability differently from the
+     terms of sections 15 and 16 of this License; or
+ .
+     b) Requiring preservation of specified reasonable legal notices or
+     author attributions in that material or in the Appropriate Legal
+     Notices displayed by works containing it; or
+ .
+     c) Prohibiting misrepresentation of the origin of that material, or
+     requiring that modified versions of such material be marked in
+     reasonable ways as different from the original version; or
+ .
+     d) Limiting the use for publicity purposes of names of licensors or
+     authors of the material; or
+ .
+     e) Declining to grant rights under trademark law for use of some
+     trade names, trademarks, or service marks; or
+ .
+     f) Requiring indemnification of licensors and authors of that
+     material by anyone who conveys the material (or modified versions of
+     it) with contractual assumptions of liability to the recipient, for
+     any liability that these contractual assumptions directly impose on
+     those licensors and authors.
+ .
+   All other non-permissive additional terms are considered "further
+ restrictions" within the meaning of section 10.  If the Program as you
+ received it, or any part of it, contains a notice stating that it is
+ governed by this License along with a term that is a further
+ restriction, you may remove that term.  If a license document contains
+ a further restriction but permits relicensing or conveying under this
+ License, you may add to a covered work material governed by the terms
+ of that license document, provided that the further restriction does
+ not survive such relicensing or conveying.
+ .
+   If you add terms to a covered work in accord with this section, you
+ must place, in the relevant source files, a statement of the
+ additional terms that apply to those files, or a notice indicating
+ where to find the applicable terms.
+ .
+   Additional terms, permissive or non-permissive, may be stated in the
+ form of a separately written license, or stated as exceptions;
+ the above requirements apply either way.
+ .
+   8. Termination.
+ .
+   You may not propagate or modify a covered work except as expressly
+ provided under this License.  Any attempt otherwise to propagate or
+ modify it is void, and will automatically terminate your rights under
+ this License (including any patent licenses granted under the third
+ paragraph of section 11).
+ .
+   However, if you cease all violation of this License, then your
+ license from a particular copyright holder is reinstated (a)
+ provisionally, unless and until the copyright holder explicitly and
+ finally terminates your license, and (b) permanently, if the copyright
+ holder fails to notify you of the violation by some reasonable means
+ prior to 60 days after the cessation.
+ .
+   Moreover, your license from a particular copyright holder is
+ reinstated permanently if the copyright holder notifies you of the
+ violation by some reasonable means, this is the first time you have
+ received notice of violation of this License (for any work) from that
+ copyright holder, and you cure the violation prior to 30 days after
+ your receipt of the notice.
+ .
+   Termination of your rights under this section does not terminate the
+ licenses of parties who have received copies or rights from you under
+ this License.  If your rights have been terminated and not permanently
+ reinstated, you do not qualify to receive new licenses for the same
+ material under section 10.
+ .
+   9. Acceptance Not Required for Having Copies.
+ .
+   You are not required to accept this License in order to receive or
+ run a copy of the Program.  Ancillary propagation of a covered work
+ occurring solely as a consequence of using peer-to-peer transmission
+ to receive a copy likewise does not require acceptance.  However,
+ nothing other than this License grants you permission to propagate or
+ modify any covered work.  These actions infringe copyright if you do
+ not accept this License.  Therefore, by modifying or propagating a
+ covered work, you indicate your acceptance of this License to do so.
+ .
+   10. Automatic Licensing of Downstream Recipients.
+ .
+   Each time you convey a covered work, the recipient automatically
+ receives a license from the original licensors, to run, modify and
+ propagate that work, subject to this License.  You are not responsible
+ for enforcing compliance by third parties with this License.
+ .
+   An "entity transaction" is a transaction transferring control of an
+ organization, or substantially all assets of one, or subdividing an
+ organization, or merging organizations.  If propagation of a covered
+ work results from an entity transaction, each party to that
+ transaction who receives a copy of the work also receives whatever
+ licenses to the work the party's predecessor in interest had or could
+ give under the previous paragraph, plus a right to possession of the
+ Corresponding Source of the work from the predecessor in interest, if
+ the predecessor has it or can get it with reasonable efforts.
+ .
+   You may not impose any further restrictions on the exercise of the
+ rights granted or affirmed under this License.  For example, you may
+ not impose a license fee, royalty, or other charge for exercise of
+ rights granted under this License, and you may not initiate litigation
+ (including a cross-claim or counterclaim in a lawsuit) alleging that
+ any patent claim is infringed by making, using, selling, offering for
+ sale, or importing the Program or any portion of it.
+ .
+   11. Patents.
+ .
+   A "contributor" is a copyright holder who authorizes use under this
+ License of the Program or a work on which the Program is based.  The
+ work thus licensed is called the contributor's "contributor version".
+ .
+   A contributor's "essential patent claims" are all patent claims
+ owned or controlled by the contributor, whether already acquired or
+ hereafter acquired, that would be infringed by some manner, permitted
+ by this License, of making, using, or selling its contributor version,
+ but do not include claims that would be infringed only as a
+ consequence of further modification of the contributor version.  For
+ purposes of this definition, "control" includes the right to grant
+ patent sublicenses in a manner consistent with the requirements of
+ this License.
+ .
+   Each contributor grants you a non-exclusive, worldwide, royalty-free
+ patent license under the contributor's essential patent claims, to
+ make, use, sell, offer for sale, import and otherwise run, modify and
+ propagate the contents of its contributor version.
+ .
+   In the following three paragraphs, a "patent license" is any express
+ agreement or commitment, however denominated, not to enforce a patent
+ (such as an express permission to practice a patent or covenant not to
+ sue for patent infringement).  To "grant" such a patent license to a
+ party means to make such an agreement or commitment not to enforce a
+ patent against the party.
+ .
+   If you convey a covered work, knowingly relying on a patent license,
+ and the Corresponding Source of the work is not available for anyone
+ to copy, free of charge and under the terms of this License, through a
+ publicly available network server or other readily accessible means,
+ then you must either (1) cause the Corresponding Source to be so
+ available, or (2) arrange to deprive yourself of the benefit of the
+ patent license for this particular work, or (3) arrange, in a manner
+ consistent with the requirements of this License, to extend the patent
+ license to downstream recipients.  "Knowingly relying" means you have
+ actual knowledge that, but for the patent license, your conveying the
+ covered work in a country, or your recipient's use of the covered work
+ in a country, would infringe one or more identifiable patents in that
+ country that you have reason to believe are valid.
+ .
+   If, pursuant to or in connection with a single transaction or
+ arrangement, you convey, or propagate by procuring conveyance of, a
+ covered work, and grant a patent license to some of the parties
+ receiving the covered work authorizing them to use, propagate, modify
+ or convey a specific copy of the covered work, then the patent license
+ you grant is automatically extended to all recipients of the covered
+ work and works based on it.
+ .
+   A patent license is "discriminatory" if it does not include within
+ the scope of its coverage, prohibits the exercise of, or is
+ conditioned on the non-exercise of one or more of the rights that are
+ specifically granted under this License.  You may not convey a covered
+ work if you are a party to an arrangement with a third party that is
+ in the business of distributing software, under which you make payment
+ to the third party based on the extent of your activity of conveying
+ the work, and under which the third party grants, to any of the
+ parties who would receive the covered work from you, a discriminatory
+ patent license (a) in connection with copies of the covered work
+ conveyed by you (or copies made from those copies), or (b) primarily
+ for and in connection with specific products or compilations that
+ contain the covered work, unless you entered into that arrangement,
+ or that patent license was granted, prior to 28 March 2007.
+ .
+   Nothing in this License shall be construed as excluding or limiting
+ any implied license or other defenses to infringement that may
+ otherwise be available to you under applicable patent law.
+ .
+   12. No Surrender of Others' Freedom.
+ .
+   If conditions are imposed on you (whether by court order, agreement or
+ otherwise) that contradict the conditions of this License, they do not
+ excuse you from the conditions of this License.  If you cannot convey a
+ covered work so as to satisfy simultaneously your obligations under this
+ License and any other pertinent obligations, then as a consequence you may
+ not convey it at all.  For example, if you agree to terms that obligate you
+ to collect a royalty for further conveying from those to whom you convey
+ the Program, the only way you could satisfy both those terms and this
+ License would be to refrain entirely from conveying the Program.
+ .
+   13. Use with the GNU Affero General Public License.
+ .
+   Notwithstanding any other provision of this License, you have
+ permission to link or combine any covered work with a work licensed
+ under version 3 of the GNU Affero General Public License into a single
+ combined work, and to convey the resulting work.  The terms of this
+ License will continue to apply to the part which is the covered work,
+ but the special requirements of the GNU Affero General Public License,
+ section 13, concerning interaction through a network will apply to the
+ combination as such.
+ .
+   14. Revised Versions of this License.
+ .
+   The Free Software Foundation may publish revised and/or new versions of
+ the GNU General Public License from time to time.  Such new versions will
+ be similar in spirit to the present version, but may differ in detail to
+ address new problems or concerns.
+ .
+   Each version is given a distinguishing version number.  If the
+ Program specifies that a certain numbered version of the GNU General
+ Public License "or any later version" applies to it, you have the
+ option of following the terms and conditions either of that numbered
+ version or of any later version published by the Free Software
+ Foundation.  If the Program does not specify a version number of the
+ GNU General Public License, you may choose any version ever published
+ by the Free Software Foundation.
+ .
+   If the Program specifies that a proxy can decide which future
+ versions of the GNU General Public License can be used, that proxy's
+ public statement of acceptance of a version permanently authorizes you
+ to choose that version for the Program.
+ .
+   Later license versions may give you additional or different
+ permissions.  However, no additional obligations are imposed on any
+ author or copyright holder as a result of your choosing to follow a
+ later version.
+ .
+   15. Disclaimer of Warranty.
+ .
+   THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
+ APPLICABLE LAW.  EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
+ HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
+ OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
+ THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+ PURPOSE.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
+ IS WITH YOU.  SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
+ ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+ .
+   16. Limitation of Liability.
+ .
+   IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING
+ WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS
+ THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY
+ GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE
+ USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF
+ DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD
+ PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS),
+ EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGES.
+ .
+   17. Interpretation of Sections 15 and 16.
+ .
+   If the disclaimer of warranty and limitation of liability provided
+ above cannot be given local legal effect according to their terms,
+ reviewing courts shall apply local law that most closely approximates
+ an absolute waiver of all civil liability in connection with the
+ Program, unless a warranty or assumption of liability accompanies a
+ copy of the Program in return for a fee.
+ .
+                      END OF TERMS AND CONDITIONS
+ .
+             How to Apply These Terms to Your New Programs
+ .
+   If you develop a new program, and you want it to be of the greatest
+ possible use to the public, the best way to achieve this is to make it
+ free software which everyone can redistribute and change under these terms.
+ .
+   To do so, attach the following notices to the program.  It is safest
+ to attach them to the start of each source file to most effectively
+ state the exclusion of warranty; and each file should have at least
+ the "copyright" line and a pointer to where the full notice is found.
+ .
+     <one line to give the program's name and a brief idea of what it does.>
+     Copyright (C) <year>  <name of author>
+ .
+     This program is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+     the Free Software Foundation, either version 3 of the License, or
+     (at your option) any later version.
+ .
+     This program is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+ .
+     You should have received a copy of the GNU General Public License
+     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ .
+ Also add information on how to contact you by electronic and paper mail.
+ .
+   If the program does terminal interaction, make it output a short
+ notice like this when it starts in an interactive mode:
+ .
+     <program>  Copyright (C) <year>  <name of author>
+     This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+     This is free software, and you are welcome to redistribute it
+     under certain conditions; type `show c' for details.
+ .
+ The hypothetical commands `show w' and `show c' should show the appropriate
+ parts of the General Public License.  Of course, your program's commands
+ might be different; for a GUI interface, you would use an "about box".
+ .
+   You should also get your employer (if you work as a programmer) or school,
+ if any, to sign a "copyright disclaimer" for the program, if necessary.
+ For more information on this, and how to apply and follow the GNU GPL, see
+ <https://www.gnu.org/licenses/>.
+ .
+   The GNU General Public License does not permit incorporating your program
+ into proprietary programs.  If your program is a subroutine library, you
+ may consider it more useful to permit linking proprietary applications with
+ the library.  If this is what you want to do, use the GNU Lesser General
+ Public License instead of this License.  But first, please read
+ <https://www.gnu.org/licenses/why-not-lgpl.html>.
+
+#----------------------------------------------------------------------------
+# License file: COPYING.LESSER
+                    GNU LESSER GENERAL PUBLIC LICENSE
+                        Version 3, 29 June 2007
+ .
+  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+  Everyone is permitted to copy and distribute verbatim copies
+  of this license document, but changing it is not allowed.
+ .
+ .
+   This version of the GNU Lesser General Public License incorporates
+ the terms and conditions of version 3 of the GNU General Public
+ License, supplemented by the additional permissions listed below.
+ .
+   0. Additional Definitions.
+ .
+   As used herein, "this License" refers to version 3 of the GNU Lesser
+ General Public License, and the "GNU GPL" refers to version 3 of the GNU
+ General Public License.
+ .
+   "The Library" refers to a covered work governed by this License,
+ other than an Application or a Combined Work as defined below.
+ .
+   An "Application" is any work that makes use of an interface provided
+ by the Library, but which is not otherwise based on the Library.
+ Defining a subclass of a class defined by the Library is deemed a mode
+ of using an interface provided by the Library.
+ .
+   A "Combined Work" is a work produced by combining or linking an
+ Application with the Library.  The particular version of the Library
+ with which the Combined Work was made is also called the "Linked
+ Version".
+ .
+   The "Minimal Corresponding Source" for a Combined Work means the
+ Corresponding Source for the Combined Work, excluding any source code
+ for portions of the Combined Work that, considered in isolation, are
+ based on the Application, and not on the Linked Version.
+ .
+   The "Corresponding Application Code" for a Combined Work means the
+ object code and/or source code for the Application, including any data
+ and utility programs needed for reproducing the Combined Work from the
+ Application, but excluding the System Libraries of the Combined Work.
+ .
+   1. Exception to Section 3 of the GNU GPL.
+ .
+   You may convey a covered work under sections 3 and 4 of this License
+ without being bound by section 3 of the GNU GPL.
+ .
+   2. Conveying Modified Versions.
+ .
+   If you modify a copy of the Library, and, in your modifications, a
+ facility refers to a function or data to be supplied by an Application
+ that uses the facility (other than as an argument passed when the
+ facility is invoked), then you may convey a copy of the modified
+ version:
+ .
+    a) under this License, provided that you make a good faith effort to
+    ensure that, in the event an Application does not supply the
+    function or data, the facility still operates, and performs
+    whatever part of its purpose remains meaningful, or
+ .
+    b) under the GNU GPL, with none of the additional permissions of
+    this License applicable to that copy.
+ .
+   3. Object Code Incorporating Material from Library Header Files.
+ .
+   The object code form of an Application may incorporate material from
+ a header file that is part of the Library.  You may convey such object
+ code under terms of your choice, provided that, if the incorporated
+ material is not limited to numerical parameters, data structure
+ layouts and accessors, or small macros, inline functions and templates
+ (ten or fewer lines in length), you do both of the following:
+ .
+    a) Give prominent notice with each copy of the object code that the
+    Library is used in it and that the Library and its use are
+    covered by this License.
+ .
+    b) Accompany the object code with a copy of the GNU GPL and this license
+    document.
+ .
+   4. Combined Works.
+ .
+   You may convey a Combined Work under terms of your choice that,
+ taken together, effectively do not restrict modification of the
+ portions of the Library contained in the Combined Work and reverse
+ engineering for debugging such modifications, if you also do each of
+ the following:
+ .
+    a) Give prominent notice with each copy of the Combined Work that
+    the Library is used in it and that the Library and its use are
+    covered by this License.
+ .
+    b) Accompany the Combined Work with a copy of the GNU GPL and this license
+    document.
+ .
+    c) For a Combined Work that displays copyright notices during
+    execution, include the copyright notice for the Library among
+    these notices, as well as a reference directing the user to the
+    copies of the GNU GPL and this license document.
+ .
+    d) Do one of the following:
+ .
+        0) Convey the Minimal Corresponding Source under the terms of this
+        License, and the Corresponding Application Code in a form
+        suitable for, and under terms that permit, the user to
+        recombine or relink the Application with a modified version of
+        the Linked Version to produce a modified Combined Work, in the
+        manner specified by section 6 of the GNU GPL for conveying
+        Corresponding Source.
+ .
+        1) Use a suitable shared library mechanism for linking with the
+        Library.  A suitable mechanism is one that (a) uses at run time
+        a copy of the Library already present on the user's computer
+        system, and (b) will operate properly with a modified version
+        of the Library that is interface-compatible with the Linked
+        Version.
+ .
+    e) Provide Installation Information, but only if you would otherwise
+    be required to provide such information under section 6 of the
+    GNU GPL, and only to the extent that such information is
+    necessary to install and execute a modified version of the
+    Combined Work produced by recombining or relinking the
+    Application with a modified version of the Linked Version. (If
+    you use option 4d0, the Installation Information must accompany
+    the Minimal Corresponding Source and Corresponding Application
+    Code. If you use option 4d1, you must provide the Installation
+    Information in the manner specified by section 6 of the GNU GPL
+    for conveying Corresponding Source.)
+ .
+   5. Combined Libraries.
+ .
+   You may place library facilities that are a work based on the
+ Library side by side in a single library together with other library
+ facilities that are not Applications and are not covered by this
+ License, and convey such a combined library under terms of your
+ choice, if you do both of the following:
+ .
+    a) Accompany the combined library with a copy of the same work based
+    on the Library, uncombined with any other library facilities,
+    conveyed under the terms of this License.
+ .
+    b) Give prominent notice with the combined library that part of it
+    is a work based on the Library, and explaining where to find the
+    accompanying uncombined form of the same work.
+ .
+   6. Revised Versions of the GNU Lesser General Public License.
+ .
+   The Free Software Foundation may publish revised and/or new versions
+ of the GNU Lesser General Public License from time to time. Such new
+ versions will be similar in spirit to the present version, but may
+ differ in detail to address new problems or concerns.
+ .
+   Each version is given a distinguishing version number. If the
+ Library as you received it specifies that a certain numbered version
+ of the GNU Lesser General Public License "or any later version"
+ applies to it, you have the option of following the terms and
+ conditions either of that published version or of any later version
+ published by the Free Software Foundation. If the Library as you
+ received it does not specify a version number of the GNU Lesser
+ General Public License, you may choose any version of the GNU Lesser
+ General Public License ever published by the Free Software Foundation.
+ .
+   If the Library as you received it specifies that a proxy can decide
+ whether future versions of the GNU Lesser General Public License shall
+ apply, that proxy's public statement of acceptance of any version is
+ permanent authorization for you to choose that version for the
+ Library.
